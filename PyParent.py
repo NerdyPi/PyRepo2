@@ -1,12 +1,11 @@
-def myFunction(input):
-    if type(input) == type(int()):
-        a = int(input)
+def myFunction(Insert):
+    if type(Insert) == type(int()):
+        a = int(Insert)
     else:
-        a = input
+        a = Insert
+
     print(a)
 
-b = input()
-myFunction(b)
 
 
 

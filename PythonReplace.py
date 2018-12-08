@@ -1,8 +1,12 @@
 import math
-print(6+7);
-var = 4
+from PyParent import myFunction
 
-print(var);
-
-print();
+Var = input()
+print("reeee");
+i = 0
+strng = 'Python'
+while (i < 5):
+   print(strng[i])
+   i = i + 1
+myFunction(Var)
 
