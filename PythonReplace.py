@@ -1,5 +1,5 @@
 import math
-from PyParent import myFunction
+from PyParent import *
 
 Var = input()
 print("reeee");
@@ -10,3 +10,5 @@ while (i < 5):
    i = i + 1
 myFunction(Var)
 
+print(retunFunctionInt(5));
+print(retunFunctionInt(str(Var)));
