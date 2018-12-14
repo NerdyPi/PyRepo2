@@ -1,3 +1,5 @@
+
+
 def myFunction(Insert):
     if type(Insert) == type(int()):
         a = int(Insert)
@@ -12,9 +14,4 @@ def retunFunctionInt(Insert):
     else:
         l = str(Insert)
     return l
-
-
-
-
-
 
